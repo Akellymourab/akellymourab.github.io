@@ -2874,7 +2874,7 @@ input, select, textarea {
 		cursor: default;
 	}
 
-		.statistics li {
+		.statistics div {
 
 			flex: 2;
 			padding: 1.5em;
@@ -2883,34 +2883,43 @@ input, select, textarea {
 			border-radius: 8px;
 		}
 
-			.statistics li.style1 {
-				margin: 0 43em 2em 0;
+			.statistics div.style1 {
+				width: 45%;
+				float: left;
+				margin: 0 32em 2em 0;
 				background-color: #efa8b0;
-
 
 			}
 
-			.statistics li.style2 {
-				margin: 0 0 2em 43em;
+			#text-statistics1 {
+				width: 50%;
+				float: right;
+				margin:  0 0 10em 20em;
+				color : #5f4d93;
+				font-size: 23px;
+			}
+
+			.statistics div.style2 {
+				margin: 0 0 2em 32em;
 				background-color: #c79cc8;
 			}
 
-			.statistics li.style3 {
-				margin: 0 43em 2em 0;
+			.statistics div.style3 {
+				margin: 0 32em 2em 0;
 				background-color: #a89cc8;
 			}
 
-			.statistics li.style4 {
-				margin: 0 0 2em 43em;
+			.statistics div.style4 {
+				margin: 0 0 2em 32em;
 				background-color: #9bb2e1;
 			}
 
-			.statistics li.style5 {
-				margin: 0 43em 2em 0;
+			.statistics div.style5 {
+				margin: 0 32em 2em 0;
 				background-color: #8cc9f0;
 			}
 
-			.statistics li strong, .statistics li b {
+			.statistics div strong, .statistics div b {
 				display: block;
 				font-size: 2em;
 				line-height: 1.1;
@@ -2919,21 +2928,21 @@ input, select, textarea {
 				letter-spacing: -0.025em;
 			}
 
-			.statistics li:first-child {
+			.statistics div:first-child {
 				border-top-left-radius: 8px;
 				border-bottom-left-radius: 8px;
 			}
 
-			.statistics li:last-child {
+			.statistics div:last-child {
 				border-top-right-radius: 8px;
 				border-bottom-right-radius: 8px;
 			}
 
-			.statistics li .icon {
+			.statistics div .icon {
 				display: inline-block;
 			}
 
-				.statistics li .icon:before {
+				.statistics div .icon:before {
 					font-size: 2.75rem;
 					line-height: 1.3;
 				}
